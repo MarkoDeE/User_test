@@ -14,14 +14,6 @@ public class User {
         this.phone = phone;
         this.address = address;
 
-        User user = new UserBuilder()
-                .setFirstName("John")
-                .setLastName("Doe")
-                .setAge(30)
-                .setEmail("johndoe@example.com")
-                .setPhone("123-456-7890")
-                .setAddress("123 Main St, Anytown USA")
-                .build();
     }
 
     public String getFirstName() {
